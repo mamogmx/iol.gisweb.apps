@@ -1,0 +1,56 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="iol.gisweb.apps">
+    <browser:page
+       name="getIolRoles"
+       for="Products.CMFPlomino.interfaces.IPlominoDocument"
+       layer="..interfaces.IIolLayer"
+       class=".utils-view.getIolRoles"
+       permission="zope2.View"
+       />
+    <browser:page
+       name="wfInfo"
+       for="Products.CMFPlomino.interfaces.IPlominoDocument"
+       layer="..interfaces.IIolLayer"
+       class=".utils-view.wfInfo"
+       permission="zope2.View"
+       />
+    <browser:page
+       name="wfTransitions"
+       for="Products.CMFPlomino.interfaces.IPlominoDocument"
+       layer="..interfaces.IIolLayer"
+       class=".utils-view.wfTransitions"
+       permission="zope2.View"
+       />
+    <browser:page
+       name="wfTransitions"
+       for="Products.CMFPlomino.interfaces.IPlominoForm"
+       layer="..interfaces.IIolLayer"
+       class=".utils-view.wfTransitions"
+       permission="zope2.View"
+    />
+
+    <browser:page
+       name="getLabels"
+       for="Products.CMFPlomino.interfaces.IPlominoDocument"
+       layer="..interfaces.IIolLayer"
+       class=".utils-view.getLabels"
+       permission="zope2.View"
+       />
+    <browser:page
+       name="getFieldValue"
+       for="Products.CMFPlomino.interfaces.IPlominoDocument"
+       layer="..interfaces.IIolLayer"
+       class=".utils-view.getFieldValue"
+       permission="zope2.View"
+       />
+    <browser:page
+       name="frmFields"
+       for="Products.CMFPlomino.interfaces.IPlominoForm"
+       layer="..interfaces.IIolLayer"
+       class=".utils-view.frmFields"
+       permission="zope2.View"
+       />
+            
+</configure>

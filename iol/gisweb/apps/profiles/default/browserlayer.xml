@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<layers>
+  <layer name="iol.gisweb.apps"
+    interface="iol.gisweb.apps.interfaces.IIolLayer" />
+</layers>

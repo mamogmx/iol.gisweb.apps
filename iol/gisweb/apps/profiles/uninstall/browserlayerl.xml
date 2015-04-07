@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<layers>
+<layer name="iol.gisweb.utils"
+    interface="iol.gisweb.utils.interfaces.IIolLayer"
+    remove="True" />
+</layers>
